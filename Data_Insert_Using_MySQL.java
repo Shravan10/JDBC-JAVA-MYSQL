@@ -19,9 +19,7 @@ public class Person {
 		Statement stmt = conn.createStatement();
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		do{
-		//int id=Integer.parseInt(br.readLine());
-		//float salary=Float.parseFloat(br.readLine());
-		//ps.setFloat(2, salary);
+		
 		System.out.println("enter Last Name:");
 		lastName=br.readLine();
 		System.out.println("enter First Name:");
